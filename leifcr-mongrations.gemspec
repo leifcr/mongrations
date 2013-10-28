@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "generators/mongrations_generator.rb",
     "init.rb",
     "install.rb",
+    "leifcr-mongrations.gemspec",
     "lib/mongrations.rb",
     "lib/mongrations/exceptions.rb",
     "lib/mongrations/migration_proxy.rb",
