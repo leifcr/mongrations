@@ -13,8 +13,6 @@ necessary}
     gem.email = "leifcr@gmail.com"
     gem.homepage = "http://github.com/leifcr/mongrations"
     gem.authors = ["jonbell", "leifcr"]
-    gem.add_dependency "mongo_mapper", ">= 0.11.0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
