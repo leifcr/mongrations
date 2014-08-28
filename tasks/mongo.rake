@@ -30,6 +30,11 @@ namespace :mongo do
       raise "VERSION is required" unless version
       Mongrations::Migrator.run(:down, @path, version)
     end
+
+    desc 'Show the current version of the mongrations'
+      task :version => :environment do
+      puts MongoMapper::Migrator.current_version
+    end
   end
 
   desc 'Rolls the schema back to the previous version. Specify the number of steps with STEP=n'
