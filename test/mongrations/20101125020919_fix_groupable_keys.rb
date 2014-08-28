@@ -1,4 +1,4 @@
-class FixGroupableKeys < MongoMapper::Mongration
+class FixGroupableKeys < Mongrations::Mongration
   def self.up
     Widget.find_each do |w|
       w.price += 100
