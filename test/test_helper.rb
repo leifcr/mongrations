@@ -9,16 +9,6 @@ require 'matchy'
 require 'mongo_mapper'
 require 'models/widget'
 require 'mongrations'
-# require 'mongrations/exceptions'
-# require 'mongrations/exceptions'
-# require 'mongrations/exceptions'
-# require 'mongrations/exceptions'
-# require 'mongrations/exceptions'
-# require 'mongrations/exceptions'
-# require 'mongrations/migration_proxy'
-# require 'mongrations/migrator'
-# require 'mongrations/mongration'
-# require 'mongrations/schema_migration'
 
 MongoMapper.connection = Mongo::Connection.new('127.0.0.1', 27017)
 MongoMapper.database   = "mongrations-test"
